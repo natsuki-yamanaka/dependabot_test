@@ -1,6 +1,6 @@
 [[package]]
 name = "certifi"
-version = "2022.6.15"
+version = "2022.9.24"
 description = "Python package for providing Mozilla's CA Bundle."
 category = "main"
 optional = false
@@ -9,7 +9,10 @@ python-versions = ">=3.6"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "45ce101e517c89155bb06c102abdd7c9e8e058999b282d90c6dcb444bd265236"
+content-hash = "5cb27a6f15ba536b9ead8c0b522e7b7cb1419599f62942625d7d2b5af36cd282"
 
 [metadata.files]
-certifi = []
+certifi = [
+    {file = "certifi-2022.9.24-py3-none-any.whl", hash = "sha256:90c1a32f1d68f940488354e36370f6cca89f0f106db09518524c88d6ed83f382"},
+    {file = "certifi-2022.9.24.tar.gz", hash = "sha256:0d9c601124e5a6ba9712dbc60d9c53c21e34f5f641fe83002317394311bdce14"},
+]
