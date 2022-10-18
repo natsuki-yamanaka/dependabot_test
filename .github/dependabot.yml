@@ -4,8 +4,6 @@ updates:
     directory: '/'
     schedule:
       interval: 'daily'
-      time: "20:38"
-      timezone: "Asia/Tokyo"
-    target-branch: "test"
     allow:
-      - dependency-name: "requests"
+      - dependency-name: "zengin-code"
+      - dependency-name: "certifi"
