@@ -4,7 +4,8 @@ updates:
     directory: '/'
     schedule:
       interval: 'daily'
-      time: "12:15"
+      time: "20:38"
       timezone: "Asia/Tokyo"
+    target-branch: "test"
     allow:
-      - dependency-name: "Jinja2"
+      - dependency-name: "requests"
