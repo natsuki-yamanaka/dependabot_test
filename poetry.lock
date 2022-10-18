@@ -1,0 +1,15 @@
+[[package]]
+name = "certifi"
+version = "2022.6.15"
+description = "Python package for providing Mozilla's CA Bundle."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.7"
+content-hash = "45ce101e517c89155bb06c102abdd7c9e8e058999b282d90c6dcb444bd265236"
+
+[metadata.files]
+certifi = []

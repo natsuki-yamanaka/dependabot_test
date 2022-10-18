@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hoge"
+version = "0.1.0"
+description = "dependabot test"
+authors = ["ny"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+certifi = "2022.6.15"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
