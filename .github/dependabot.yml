@@ -4,5 +4,7 @@ updates:
     directory: '/'
     schedule:
       interval: 'daily'
-      time: "12:00"
+      time: "12:20"
       timezone: "Asia/Tokyo"
+    allow:
+      - dependency-name: "Jinja2"
