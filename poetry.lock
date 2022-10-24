@@ -16,7 +16,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 
 [[package]]
 name = "zengin-code"
-version = "1.1.0.20221002"
+version = "1.1.0.20221023"
 description = "bank codes and branch codes for Japanese."
 category = "main"
 optional = false
@@ -31,6 +31,15 @@ python-versions = "^3.7"
 content-hash = "6f90fae6f8827cf55259dfb1b5f247c3e1550f713929fac1f6e5b14a492f6d76"
 
 [metadata.files]
-certifi = []
-six = []
-zengin-code = []
+certifi = [
+    {file = "certifi-2022.9.24-py3-none-any.whl", hash = "sha256:90c1a32f1d68f940488354e36370f6cca89f0f106db09518524c88d6ed83f382"},
+    {file = "certifi-2022.9.24.tar.gz", hash = "sha256:0d9c601124e5a6ba9712dbc60d9c53c21e34f5f641fe83002317394311bdce14"},
+]
+six = [
+    {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
+    {file = "six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
+]
+zengin-code = [
+    {file = "zengin_code-1.1.0.20221023-py2.py3-none-any.whl", hash = "sha256:f33478b4bb00bc94c235f78662318d266e8acea4cec1225977417cd4d42bcc16"},
+    {file = "zengin_code-1.1.0.20221023.tar.gz", hash = "sha256:f0643ec79019bded36aeedb59abbe2719c3a6336b9ce2407ccf1a61db3bfe99b"},
+]
